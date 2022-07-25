@@ -1,4 +1,4 @@
-package Wo
+package Hello
 
 import (
 	"testing"
