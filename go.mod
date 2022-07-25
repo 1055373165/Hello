@@ -1,4 +1,4 @@
-module example.com/Wo
+module github.com/1055373165/Hello
 
 go 1.18
 
