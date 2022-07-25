@@ -1,9 +1,14 @@
 package Hello
 
-import "rsc.io/quote/v3"
+import (
+	"fmt"
 
-func Hello() string {
-	return quote.HelloV3()
+	"rsc.io/quote/v3"
+)
+
+func Hello(name string) string {
+	message := fmt.Sprintf("Hello, %s this is v2", name)
+	return message
 }
 
 func Proverb() string {

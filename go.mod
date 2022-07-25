@@ -1,4 +1,4 @@
-module github.com/1055373165/Hello
+module github.com/1055373165/Hello/v2
 
 go 1.18
 
